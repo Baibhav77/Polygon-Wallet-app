@@ -1,0 +1,194 @@
+.App {
+  align-self: center;
+  justify-self: center;
+}
+
+#root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  height: 100vh;
+  display: grid;
+  font-size: 18px;
+}
+
+.container {
+  width:100%;
+  text-align: center;
+ 
+  margin-bottom: 27px;
+  position: relative;
+  color:black;
+  background:white;
+  
+  
+  border-radius: 30px 30px;
+}
+h2{
+  position:relative;
+  top:-40px;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+}
+.container1 {
+  min-width:300px;
+  text-align: center;
+  padding: 27px 18px;
+  margin-bottom: 12px;
+  position: relative;
+  color:white;
+  background: #7B3FE4;
+  border-radius: 25px;
+}
+
+.container_load {
+  min-height:100%;
+  min-width: 100%;
+  background-color: #7B3FE4;
+  text-align: center;
+  padding: 27px 18px;
+  margin-bottom: 27px;
+}
+.containerlogin {
+  
+  min-height:100%;
+  min-width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 27px 18px;
+  margin-bottom: 27px;
+}
+.containerSend {
+  position:relative;
+  min-height:100%;
+  min-width: 100%;
+  background-color: white;
+  text-align: center;
+  padding: 27px 18px;
+  top:-70px;
+  left:-18px;
+  margin-bottom: 27px;
+    border-radius: 40px 40px;
+}
+
+
+body{
+  background-color: #7B3FE4;
+}
+
+h1 {
+  margin: 0;
+  padding-bottom: 18px;
+  font-size: 18px;
+}
+
+.info {
+  max-width: 21ch;
+  margin: 0 auto;
+  margin-bottom: 5px;
+ 
+  padding: 8px 24px;
+  word-wrap: break-word;
+  font-family: 'Livvic';
+font-style: normal;
+}
+
+.infobalance{
+   max-width: 21ch;
+  margin: 0 auto;
+  position:relative;
+  top:-70px;
+  word-wrap: break-word;
+  font-family: 'Livvic';
+  font-style: normal;
+}
+.infobalancer{
+   max-width: 21ch;
+  margin: 0 auto;
+  position:relative;
+
+  word-wrap: break-word;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+input,
+button {
+  
+  padding: 9px;
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+img{
+  padding:10px;
+}
+a{
+  display:relative;
+  position:relative;
+  top:0%; 
+}
+input.full-width {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 9px;
+  text-align: center;
+}
+
+select, option {
+  color:white;
+  background: #7B3FE4;
+  border-radius: 15px;
+}
+
+.password {
+		background: hsl(0deg 0% 100%);
+		box-shadow: 0 0 2em hsl(231deg 62% 94%);
+		padding: 1em;
+		display: block;
+   margin-left: auto;
+  margin-right: auto;
+		flex-direction: column;
+		gap: 0.5em;
+		border-radius: 20px;
+		color: hsl(0deg 0% 30%);
+		input {
+			outline: none;
+			border: none;
+			&::placeholder {
+				color: hsl(0deg 0% 0%);
+				font-size: 0.9em;
+			}
+		}
+		ion-icon {
+			color: hsl(0deg 0% 30%);
+			margin-bottom: -.2em;
+		}
+		.show-hide {
+			margin-right: -5em;
+		}
+	}
+
+.loginator {
+    
+		padding: 1em;
+		background: #7B3FE4;
+		color: white;
+		border: none;
+		border-radius: 30px;
+		font-weight: 600;
+	}
